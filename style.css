@@ -16,7 +16,7 @@ body {
 
 p {
 	margin: 0px;
-	font-style: italic;
+	letter-spacing: .15rem;
 	color: snow;
 	text-shadow: 1px 1px 2px brown;
 	position: fixed;
@@ -27,7 +27,8 @@ p {
 }
 
 footer {
-	font-style: italic;
+	letter-spacing: .15rem;
+	text-shadow: 1px 1px 2px brown;
 	color: snow;
 }
 
@@ -41,9 +42,9 @@ video {
 }
 
 span {
-	margin-right: .1em;
-	font-size: .85em;
-	font-family: "Helvetica", serif;
+	/*margin-right: .1em;
+	font-size: .95rem;
+	font-family: "Helvetica", serif;*/
 }
 
 a {
