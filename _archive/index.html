@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HHV01B8HY5"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-HHV01B8HY5');
+	</script>
+	<script>
+	  const video = document.getElementById('bg-video');
+	  video.muted = true; // ensure muted is enforced
+	  video.play().catch(e => {
+	    console.log("Autoplay prevented:", e);
+	  });
+	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Julio Correa</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<video id="bg-video" autoplay muted playsinline preload="auto" loop>
+  <source src="birds.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+	</video>
+
+	<p> J<span class="aaa">u</span>lio Corre<span class="aaa">a</span> is <span class="aaa">a</span> designer and musici<span class="aaa">a</span>n who recently received <span class="aaa">a</span>n MF<span class="aaa">A</span> from the Y<span class="aaa">a</span>le School of <span class="aaa">A</span>rt and is currently working at Other Means.
+	</p>
+
+	
+	<footer id="footer-container">
+		<footer id="footer-content">
+			Last updated August 19, 2025 from Brooklyn, NY <br>
+		</footer>
+	</footer>
+</body>
+</html>
